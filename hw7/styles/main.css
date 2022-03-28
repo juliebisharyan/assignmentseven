@@ -1,0 +1,151 @@
+body {
+
+  background-color: white;
+}
+
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#menu {
+  color: orangered;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#lede {
+  font-family: Helvetica, sans-serif;
+}
+
+.grayline {
+  color: #cccccc;
+  border-width: 0.5px;
+  margin-top: 5px;
+}
+
+
+.grayline2 {
+  border-width: 0.5px;
+  color: #cccccc;
+  margin: 1em 35px 1 em 35px;
+  width: 75%;
+}
+
+
+#byline {
+  color: #666666;
+}
+
+#survey {
+  height: 500px;
+  weight: 532px;
+  margin-left: -35px;
+}
+
+
+#subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 40px;
+  font-family: Helvetica, sans-serif;
+}
+
+.caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin-left: -25px;
+}
+
+a:link {
+  color: orangered;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: orangered;
+
+}
+
+footer {
+  text-align: left;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: nowrap;
+  margin: 0px 170px;
+}
+
+.column-1 {
+  width:  70%;
+  margin: 5px;
+}
+
+.column-2 {
+  margin-left: 5px;
+}
+
+
+#code {
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-bottom: 10px;
+}
+
+#coffee {
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-bottom: 10px;
+}
+
+#backpack {
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-bottom: 10px;
+}
+
+#local {
+  color: #666666;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+.text {
+  font-family: Georgia, serif;
+}  
+
+.ledes {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+}
+
+
+h3 {
+  font-size: 20px;
+  text-align: right;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .column-2 {width: 50%;}
+  .text {width: 100%;}
+  .survey {width: 50%;}
+}
